@@ -1,0 +1,80 @@
+{
+	"selectBox":[
+		{
+			"text":"- Select -",
+			"key":"none",
+			"components":[
+				{
+					"displayName":"Class",
+					"lay":"editclass",
+					"editable": true
+				}
+			]
+		},
+		{
+			"text":"Layout",
+			"key":"layout",
+			"components":[
+				{
+					"displayName":"Table 2 Column",
+					"lay":"t2c",
+					"html":"<div class=\"jpp-table\"><div class=\"jpp-table-row\"><div class=\"jpp-table-col\" style=\"width: 50%;height: 300px;\" data-tag><div class=\"e-bar r-bar\" data-hide></div></div><div class=\"jpp-table-col\" style=\"height: 300px;\" data-tag></div></div></div>",
+					"css":{}
+				},
+				{
+					"displayName":"Table 3 Column",
+					"lay":"t3c",
+					"html":"<div class=\"jpp-table\"><div class=\"jpp-table-row\"><div class=\"jpp-table-col\" style=\"width: 33.33%;height: 300px;\" data-tag><div class=\"e-bar r-bar\" data-hide></div></div><div class=\"jpp-table-col\" style=\"width: 33.33%;height: 300px;\" data-tag><div class=\"e-bar r-bar\" data-hide></div></div><div class=\"jpp-table-col\" style=\"height: 300px;\" data-tag></div></div></div>",
+					"css":{}
+				},
+				{
+					"displayName":"vertical-align: top",
+					"lay":"vat",
+					"style":{
+						"vertical-align":"top"
+					}
+				},
+				{
+					"displayName":"vertical-align: middle",
+					"lay":"vam",
+					"style":{
+						"vertical-align":"middle"
+					}
+				},
+				{
+					"displayName":"vertical-align: bottom",
+					"lay":"vab",
+					"style":{
+						"vertical-align":"bottom"
+					}
+				},
+				{
+					"displayName":"text-align: center",
+					"lay":"tac",
+					"style":{
+						"text-align":"center"
+					}
+				},
+				{
+					"displayName":"text-align: right",
+					"lay":"tar",
+					"style":{
+						"text-align":"right"
+					}
+				},
+				{
+					"displayName":"text-align: left",
+					"lay":"tal",
+					"style":{
+						"text-align":"left"
+					}
+				},
+				{
+					"displayName":"jpp-tc",
+					"lay":"tc",
+					"class":"jpp-tc"
+				}
+			]
+		}
+	]
+}
