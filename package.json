@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ag-psd": "^11.1.2"
+    "ag-psd": "^31.0.1"
   }
 }
